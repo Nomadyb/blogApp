@@ -195,6 +195,7 @@ AUTHENTICATION_BACKENDS = [
     "django.contrib.auth.backends.ModelBackend",
 ]
 
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 # Media Settings
