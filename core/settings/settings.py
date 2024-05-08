@@ -45,6 +45,13 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+    
+    'corsheaders',
+    'django_crontab',
+    'django_extensions',
+
+    "storages",
+
 
     'allauth',
     'allauth.account',
@@ -181,6 +188,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
 ]
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Rest Auth Settings
