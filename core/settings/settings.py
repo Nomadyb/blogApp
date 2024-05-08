@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-^!kynt^88*zw-i9949x&n^i9!gi)g+9gkzj0hxh+lvm4tg$j*i
 
 # TODO:canlıya alırken False yapılacak unutma
 
-DEBUG = os.environ.get('DEBUG', default=False)
+DEBUG = os.environ.get('DEBUG', default=True)
 ALLOWED_HOSTS = ['*']
 
 # ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", default="*")
