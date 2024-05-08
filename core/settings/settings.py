@@ -46,16 +46,15 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
     
-    'corsheaders',
-    'django_crontab',
-    'django_extensions',
+    # 'django_crontab',
+    # 'django_extensions',
 
-    "storages",
+    # "storages",
 
 
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
+    # 'allauth',
+    # 'allauth.account',
+    # 'allauth.socialaccount',
 
     'dj_rest_auth',
     'dj_rest_auth.registration',
@@ -157,7 +156,7 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Simple JWT Settings
